@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.text-xs {
+  font-size: 0.6rem;
+}
+
+.text-sm {
+  font-size: 0.8rem;
+}
+
+.text-md {
+  font-size: 1rem;
+}
+
+.text-lg {
+  font-size: 2.8rem;
+}
+
+.text-light {
+  font-weight: 300;
+}
+
+.text-regular {
+  font-weight: 400;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.bt-primary {
+  background-color: #a491d2;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.8rem 3rem;
+  border-radius: 0.3rem;
+}
+
+.bt-primary:hover {
+  background-color: #cdc3e6;
+}
+
+.bt-primary:focus {
+  background-color: #bec1bb;
+}
+
+.container {
+  display: flex;
+}
+
+.contactos{
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+flex: 1 0 17rem;
+border-right: 1px solid #BEC1BB;
+}
+.nuevochat{
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e8ebe4;
+}
+.status{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #e8ebe4;
+}
+
+.usuario{
+  display: flex;
+  align-items: center;
+}
+
+.datausuario{
+  margin-left: 1rem;
+}
+
+.user-state{
+  color: #32cd32;
+}
+
+.img-normal{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.img-pequena{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.icono{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #828485;
+}
+
+.principal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.principal img{
+  width: 16rem;
+  margin-bottom: 1.5rem;
+}
+
+.princ {
+  width: 35rem;
+  text-align: center;
+  padding: 0 0.5rem;
+}
